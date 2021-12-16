@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    background-image: url(./image/wood.jpg);
+}
+
+.portfolio h1{
+    margin: 0;
+    padding: 1.5rem;
+    margin:2.5rem 0;
+    background-color:lightslategray;
+    color: white;
+    font-size: 35px;
+    font-weight: 300;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.portitem {
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.portitem img{
+    display: block;
+}
+
+p {
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 10%;
+    background-color: lightslategray;
+    color: #ddd;
+}
+
+
+
+.see {
+    text-decoration: none;
+    color: black;
+    padding: 1%;
+    border: 2px solid black;
+}
+
+.more .see:hover,
+.more .see:focus {
+    opacity: 0.6;
+}
+
+.gohome{
+    margin: 5% 0;
+}
+
+.back {
+    margin-top: 10%;
+    text-decoration: none;
+    color: black;
+    padding: 1%;
+    border: 2px solid black;
+}
+
+.gohome .back:hover,
+.gohome .back:focus {
+    opacity: 0.6;
+}
+
+@media (min-width:37rem) {
+    .portitem {
+        width: 50%;
+        float: left;
+    }
+
+    .more {
+        margin-top: 15%;
+    }
+}

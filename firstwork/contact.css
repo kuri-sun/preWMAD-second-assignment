@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
+
+* {
+    box-sizing: border-box;
+    /* border-color:white ; */
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background:url(./image/wood.jpg);
+    color: black;
+    text-align: center;
+    margin: 5%;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+}
+
+
+
+.profile {
+    background-color: transparent;
+    padding: 3%;
+    border:2px solid black;
+    margin: 3px;
+}
+
+.profile .pic {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.name {
+    right: 0;
+    left: 0;
+    font-size: 2.5rem;
+}
+
+.profile .maxim {
+    font-style: italic;
+    font-weight: 600;
+}
+
+.profile ul {
+    list-style: none;
+    right: 0;
+    left: 0;
+    padding: 0;
+}
+
+.phone1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.phone2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.done {
+    background:transparent;
+    padding: 3%;
+    outline:2px solid black;
+    margin: 0 5px;
+}
+
+.done h2 {
+    margin-top: 0;
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+
+
+
+.sns {
+    background:transparent;
+    padding: 3%;
+    outline:2px solid black;
+    margin: 5px;
+}
+
+.sns h2 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+
+.sns .container1 {
+    border:2px solid transparent;
+    
+}
+
+.container1 .istimg{
+    width: 10%;
+    height: 10%;
+    float: left;
+    margin:1% 0 0 10%;
+}
+
+.container1 a {
+    font-family: 'Raleway';
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+    border:2px solid black;
+    padding: 1% 2%;
+}
+
+.container1 a:hover,
+.container1 a:focus{
+    opacity: 0.6;
+}
+
+.container1 p {
+    transform: translateX(-8%);
+}
+
+.sns .container2 {
+    border:2px solid transparent;
+}
+
+.container2 .twtimg{
+    width: 10%;
+    height: 10%;
+    float: left;
+    margin:1% 0 0 10%;
+}
+
+.container2 a {
+    font-family: 'Raleway';
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+    border:2px solid black;
+    padding: 1% 2%;
+}
+
+.container2 a:hover,
+.container2 a:focus{
+    opacity: 0.6;
+}
+
+.container2 p {
+    transform: translateX(-8%);
+}
+
+.sns .container3 {
+    border:2px solid transparent;
+}
+
+.container3 .fcbimg{
+    width: 9%;
+    height: 9%;
+    float: left;
+    margin:1% 0 0 10%;
+}
+
+.container3 a {
+    font-family: 'Raleway';
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+    border:2px solid black;
+    padding: 1% 2%;
+}
+
+.container3 a:hover,
+.container3 a:focus{
+    opacity: 0.6;
+}
+
+.container3 p {
+    transform: translateX(-8%);
+}
+
+.gohome {
+    margin: 5px;
+    margin-top: 2%;
+}
+
+.gohome {
+    font-size: 23px;
+}
+
+.gohome p {
+    margin: 0;
+}
+
+.gohome a {
+    background-color: white;
+    padding: 1%;
+    outline:2px solid black;
+    text-decoration: none;
+    color: black;
+}
+
+.gohome a:hover,
+.gohome a:focus {
+    opacity: 0.7;
+}
+
+
+
+
+
+
+@media (min-width:850px) {
+    .profile {
+        margin-left: 3px;
+        float: left;
+        width: 48%;
+    }
+
+    .done {
+        width: 48%;
+        float: right;
+        margin-right: 3px;
+    }
+
+    .sns {
+        float: right;
+        width: 48%;
+        margin-right: 3px;
+    }
+
+    .gohome {
+        width: 200px;
+        float: left;
+        margin-left: 13%;
+        margin-top: 7%;
+    }
+
+}

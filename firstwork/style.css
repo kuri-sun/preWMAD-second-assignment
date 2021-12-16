@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+header {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 2em;
+    background: transparent;
+}
+
+.logo {
+    /* font-style: italic; */
+    color: white;
+    padding: 15px;
+    margin-top: 1em;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 1em;
+}
+
+nav a {
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: .5px;
+    color: white;
+}
+
+nav a:hover,
+nav a:focus{
+    color: #ddd;
+}
+
+.homehero{
+    background-image: url(./image/homehero.jpeg);
+    background-size: auto;
+    padding: 12em 0;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.title {
+    margin-top: 3em;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.title span {
+    font-weight: 300;
+    font-size: .9em;
+}
+
+.button1 {
+    display: inline-block;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 2px;
+    border-style: solid;
+    padding: .5em 1.5em;
+    border-color: white;
+    color: white;
+}
+
+.button1:hover,
+.button1:focus {
+   opacity: 0.7;
+}
+
+@media (min-width:60rem) {
+    .logo {
+        float: left;
+    }
+    nav {
+        float: right;
+    }
+}
+
+.container2 {
+    background-color: white;
+    height: auto;
+    padding: 8% 10%;
+    padding-bottom: 2rem;
+}
+
+.hometextbox {
+    margin: 0;
+    outline: solid;
+    outline-offset: -1em;
+    padding: 2.5em 3em;
+    /* position: relative; */
+}
+
+.container2 .title2 {
+    margin: 0;
+    position: absolute;
+    padding: 0 .25em;
+    left: 50%;
+    transform: translateX(-50%);
+    /* right: 0; */
+    background:white;
+    width: 20rem;
+    /* margin: 0 10%; */
+}
+
+.button {
+    display: inline-block;
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 2px;
+    border-style: solid;
+    padding: .5em 1.75em;
+    border-color:#bfbfbf;
+    color:#bfbfbf;
+}
+
+.button:hover,
+.button:focus{
+    opacity: 0.7;
+}
+
+.portfolio h1{
+    margin: 0;
+    padding: 1.5rem;
+    margin:2.5rem 0;
+    background-color:lightslategray;
+    color: white;
+    font-size: 35px;
+    font-weight: 300;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.portitem {
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.portitem img{
+    display: block;
+}
+
+.portdesc {
+    position: absolute;
+    z-index: 100;
+    bottom: 3em;
+    left: 7em;
+    right: 7em;
+    background: rgb(0, 0, 0, .25);
+    padding: 1em;
+    transform: translateY(150%);
+}
+
+.portdesc a {
+    font-size: 1rem;
+}
+
+.portitem:hover .portdesc{
+    transform: translateY(0%);
+}
+
+.foot {
+    margin: 8% 0 5% 0;
+    padding: 0;
+    list-style: none;
+}
+
+.foot li {
+    display: inline-block;
+    margin: 1em;
+}
+
+.foot a {
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: .5px;
+    color: black;
+    font-weight: 300;
+}
+
